@@ -6971,8 +6971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d023725e282da1c4e8173a52dbc2ed37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restart: 0
-  restarttext: {fileID: 0}
 --- !u!222 &735300485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14807,7 +14805,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   bulletPrefab: {fileID: 2148765236937687910, guid: 4bea5840f569dfa45bef2da46e864101,
     type: 3}
-  fireDelay: 1
+  fireDelay: 0.3
   audioSource: {fileID: 2036886834}
   deathClip: {fileID: 8300000, guid: 2a47e76af8274614bbf730eac699b9a6, type: 3}
 --- !u!82 &2036886834
