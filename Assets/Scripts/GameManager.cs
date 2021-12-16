@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        scoretext.text = score.ToString("0000");
+        scoretext.text = score.ToString("0000-Press R to restart.");
         
     }
 

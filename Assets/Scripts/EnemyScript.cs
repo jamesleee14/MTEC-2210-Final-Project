@@ -6,7 +6,7 @@ public class EnemyScript : MonoBehaviour
 {
     private EnemyFormation formation;
     public int scoreValue;
-    public GameManager gameManager;
+    public GameManager gameManager, restart;
 
     public AudioClip deathClip;
 
